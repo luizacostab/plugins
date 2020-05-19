@@ -12,7 +12,7 @@ $(document).on('click', '#confirm', function(){
       navigator.notification.alert("escolheu B");
     }
 }
-  navigator.notification.confirm("ESCOLHA A OU B", confirm,"ESCOLHA:",['A','B']);
+  navigator.notification.confirm("escolha A ou B", confirm,"escolha:",['A','B']);
 });
 $(document).on('click', '#beep', function(){
   navigator.notification.beep(1);
@@ -21,7 +21,7 @@ $(document).on('click', '#vibrar', function(){
   navigator.vibrate(3000);
 });
 function showMap(lat, long){
-   L.mapquest.key = '	9QvGmwxn3qEEDGtdi0GawbNrQKvyQJkn';
+   L.mapquest.key = 'HtmMRwuQLgu1CCIvDnUnsDvK8iG43MjS';
 
         var map = L.mapquest.map('map', {
           center: [lat, long],
